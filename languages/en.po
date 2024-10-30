@@ -1,0 +1,172 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: payflow\n"
+"POT-Creation-Date: 2014-11-25 11:03+0100\n"
+"PO-Revision-Date: 2014-11-25 11:04+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../src/Jigoshop/Gateway/Payflow.php:78
+#, php-format
+msgid ""
+"The Payflow gateway accepts payments in currencies of %s.  Your current "
+"currency is %s.  Payflow won't work until you change the Jigoshop currency "
+"to an accepted one. Payflow is <strong>currently disabled</strong> on the "
+"Payment Gateways settings tab."
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:83
+#, php-format
+msgid ""
+"Payflow gateway is available for merchants from %s. Your country is %s. "
+"Payflow gateway won't work until you change the Jigoshop base country to one "
+"accepted."
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:88
+msgid ""
+"Payflow is enabled to accept live payments, but your checkout page is not "
+"secured with SSL. Please enable the \"Force SSL on checkout\" option under "
+"Settings > General > Checkout Page > Force SSL on checkout. <br/>If you do "
+"not enable SSL, your payments will be refused from Payflow system."
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:99
+msgid "Payflow Payment Gateway"
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:101
+msgid ""
+"Payflow is secure, open payment gateway. You can choose to have PayPal host "
+"your payment pages or have total control over the payment process. Payflow "
+"allows merchants to choose any Internet Merchant Account to accept debit or "
+"credit card payments and connect to any major processor."
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:104
+msgid "Enable Payflow"
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:111
+#: ../src/Jigoshop/Gateway/Payflow.php:171
+msgid "No"
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:112
+#: ../src/Jigoshop/Gateway/Payflow.php:172
+msgid "Yes"
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:116
+msgid "Method Title"
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:118
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:120
+msgid "Payflow"
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:124
+msgid "Description"
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:126
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:128
+msgid "Pay using your credit or debit card."
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:132
+msgid "Partner"
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:134
+msgid "Your Payflow Partner name is required to authenticate your request."
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:140
+msgid "Merchant Login Name"
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:142
+msgid ""
+"Your Payflow Merchant Login Name id is required to authenticate your request."
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:148
+msgid "User Login Name"
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:150
+msgid "Your Payflow User Login Name is required to authenticate your request."
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:156
+msgid "Password"
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:158
+msgid "Your Payflow Password is required to authenticate your request."
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:164
+msgid "Enable Test Mode"
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:226
+#, php-format
+msgid "Error occured setting up the order. Error message: %s"
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:228
+msgid ""
+"Error occured while setting up the order. Please try again or contact the "
+"administrator."
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:248
+msgid "Payflow payment completed"
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:252
+#, php-format
+msgid "Order payment was declined. Payflow Gateway Message: %s"
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:261
+#, php-format
+msgid "Payflow Gateway Error: (%s)"
+msgstr ""
+
+#: ../src/Jigoshop/Gateway/Payflow.php:266
+#, php-format
+msgid "Error occured while processing the order. (%s)"
+msgstr ""
+
+#: ../templates/form.php:2
+msgid "Pay via Payflow"
+msgstr ""
+
+#: ../templates/form.php:8
+msgid ""
+"Thank you for your order. We are now redirecting you to Payflow to make a "
+"payment."
+msgstr ""
+
+#: ../templates/form.php:9
+msgid "Redirecting..."
+msgstr ""
